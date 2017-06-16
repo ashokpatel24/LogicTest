@@ -1,0 +1,52 @@
+﻿{
+  "responseData": {
+    "parent": {
+      "queueId": 1,
+      "odometer": 1,
+      "queueName": "ELKQ23_Userdefined",
+      "applicationName": "eLinkManager",
+      "status": 2,
+      "processedTime": null,
+      "prevQueueId": null,
+      "prevOdometer": null,
+      "srcApplicationName": "GetFrom24AndPutTo25",
+      "srcQueueId": 3,
+      "srcOdometer": 1
+    },
+    "childList": [
+      {
+        "parent": {
+          "queueId": 2,
+          "odometer": 1,
+          "queueName": "ELKQ24_Userdefined",
+          "applicationName": "GetFrom23AndPutTo24",
+          "status": 2,
+          "processedTime": null,
+          "prevQueueId": 1,
+          "prevOdometer": 1,
+          "srcApplicationName": "GetFrom24AndPutTo25",
+          "srcQueueId": 3,
+          "srcOdometer": 1
+        },
+        "childList": [
+          {
+            "parent": {
+              "queueId": 3,
+              "odometer": 1,
+              "queueName": "ELKQ25_Userdefined",
+              "applicationName": "GetFrom24AndPutTo25",
+              "status": 0,
+              "processedTime": null,
+              "prevQueueId": 2,
+              "prevOdometer": 1,
+              "srcApplicationName": "GetFrom24AndPutTo25",
+              "srcQueueId": 3,
+              "srcOdometer": 1
+            },
+            "childList": []
+          }
+        ]
+      }
+    ]
+  }
+}
